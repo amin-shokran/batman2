@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    padding:11px 0;
+    box-shadow: 0 0 10px black;
+    position: fixed;
+    background:rgba(17, 14, 69, 0.452);
+    z-index: 6545;
+}
+header .toggler {
+        font-size: 25px;
+        display: none;
+    }
+    
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+header .nav .logo i{
+    font-size: 40px;
+    color: rgb(144, 160, 244); 
+   
+}
+header .nav .navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+header .nav .navbar ul li{
+    padding-right:23px ;
+    margin-top:8px ;
+}
+header .nav .navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header .nav .navbar ul li a:hover{
+    color: rgb(144, 160, 244);
+    transition: 0.2s;
+}
+header .nav .navbar ul button{
+    border: 2px solid rgb(144, 160, 244);
+    padding:10px 22px ;
+    background-color: white;
+    border-radius:40px ;
+    transition:all 0.3s;
+  
+}
+header .nav .navbar ul button:hover{
+ background-color: blue;
+ 
+  
+}
+header .nav .navbar ul button a{
+    text-decoration: none;
+    color: black;
+}
+
+/*end nav*/
+.caption{
+    text-align: center;
+    padding-top: 115px;
+   background-image: url(../img/2022_10_02_16_00_IMG_6435.JPG);
+   background-attachment: fixed;
+   background-size:contain;
+}
+.caption img{
+    width: 500px;
+    padding-top: 20px;
+}
+
+.caption h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: blue;
+}
+.caption button{
+    width: 90px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.5s;
+  margin-bottom: 20px;
+
+
+}
+.caption button:hover{
+background-color: rgb(0, 0, 0);
+}
+
+/*end home*/
+
+.about{
+    padding: 100px 0px;
+    background: linear-gradient(200deg, #2f83d2 60%, #012a6b); background: linear-gradient(200deg, #2f83d2 60%, #012a6b);
+    color: white;
+    text-align: center;
+}
+.about .aboutt{
+
+    width: 22%;
+    text-align: center;
+    margin: auto;
+    border: 5px solid black;
+    border-top: 0;
+    border-radius: 30px;
+}
+
+.about .aboutt h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.about .row .infoimg{
+      width: 30%;
+}
+.about .row .infoimg img{
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px black ;
+  transition: 0.8s;
+}
+.about .row .infoimg img:hover{
+    transform: translateY(-25px);
+
+}
+
+.about .row .infoabout{
+    width: 40%;
+    margin-top: 300px;
+}
+.about .row .infoabout h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.photo{
+    width: 100%;
+    height: 60vh;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 60px;
+    background-attachment: fixed;
+    background-image: url(../img/2022_09_30_07_22_IMG_6406.JPG);
+   
+}
+.photo .photos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+.photo h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.photo h1 span:first-child{
+    color: red;
+}
+.photo h1:hover{
+    color: red;
+}
+.photo .photos img{
+    width: 17%;
+    border: 2px solid white;
+    border-radius: 80px;
+    transition: all 0.4s;
+}
+.photo .photos img:hover{
+    transform: translateY(-35px);
+}
+
+.fin{
+    padding: 100px 0px;
+   
+    color: white;
+    text-align: center;
+
+}
+
+.fin div{
+    width: 22%;
+    text-align: center;
+    margin: auto;
+
+}
+.fin div h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+.fin .row{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.fin .row .icn{
+    width: 35%;
+    padding: 30px;
+    text-align: center;
+
+}
+.fin .row .icn .icon{
+    display: flex;
+ color: black;
+    width: 100%;
+    font-weight: bold;
+justify-content: space-evenly;
+    font-size: 20px;
+    padding-bottom: 55px;
+}
+.fin .row .icn iframe{
+    width: 450px;
+    height: 300px;
+    border: 2px solid beige;
+    border-radius: 20px;
+}
+
+.fin .row .info{
+    width: 50%;
+}
+.fin .row .info input{
+ height: 30px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 58px;
+    padding-left: 10px;
+
+}
+.fin .row .info input:hover{
+    box-shadow: 0px 0px 10px rgba(17, 14, 69, 0.452);
+}
+.fin .row .info textarea{
+    width: 260px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.fin .row .info textarea:hover{
+    box-shadow: 0px 0px 10px rgba(17, 14, 69, 0.452);
+}
+.fin .row .info button{
+    width: 127px;
+    height: 41px;
+    background-color: rgb(47, 131, 210);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    cursor:cell;
+}
+.fin .row .info button:hover{
+    background-color:  black;
+    color: white;
+}
+
+footer{
+    font-size: 10px;
+padding: 15px 0;
+background-attachment: fixed;
+background-image: url(../img/2022_09_30_07_22_IMG_6406.JPG);
+color: rgb(255, 0, 0);
+text-align: center;
+}
+footer h1{
+    padding-bottom: 15px;
+}
+@media(max-width:950px) {
+    header .toggler {
+            display: block;
+            margin-left: auto;
+            font-size: 35px;
+       color: rgb(255, 0, 0);
+    
+        }
+        header .nav{
+       
+            width: 60%;}
+        
+        header .nav .logo{
+            width: 40px;}
+
+            header .nav .navbar ul{
+                display: none;
+              }
+.caption img{
+    width: 400px;
+}
+.caption h1{
+    font-size: 40px;
+}
+.about .aboutt h1{
+    font-size: 30px;}
+.about .row .infoabout{
+ width: 40%;   
+   margin-top: 150px;
+    }
+.photo .photos{
+    width: 85%;
+    padding-left: 100px;
+}
+.fin div h1{
+    font-size: 35px;
+}
+.fin .row .icn{
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+
+}
+.fin .row .icn .icon{
+
+    width: 90%;
+    font-size: 18px;
+}
+.fin .row .icn iframe{
+    width: 350px;
+    height: 200px;}
+ .fin .row .info input{
+  height: 28px;
+ width: 200px;
+
+margin-bottom: 40px;
+ 
+ }
+ .fin .row .info textarea{
+    width: 210px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.fin .row .info button{
+    width: 120px;
+    height: 38px;
+    margin-left: 30px;   
+}
+}
+@media(max-width:740px){
+    .caption img{
+        width: 300px;
+    }
+ .caption h1{
+ font-size: 30px;
+ }
+ .caption button{
+    width: 80px;
+    padding: 10px 10px;
+  
+  margin-bottom: 25px;
+}
+.about .aboutt h1{
+    font-size: 25px;}
+.about .row .infoabout{
+ width: 50%;   
+  margin-top: 110px;
+}
+.about .row .infoabout h1{
+    font-size: 30px;}
+    .photo .photos{
+        width: 95%;
+        padding-left: 30px;
+    }
+    .fin .row .icn{
+        width: 20%;
+        padding: 30px;
+    
+    }
+    .fin .row .icn .icon{
+
+        font-size: 15px;
+    }
+    .fin .row .icn iframe{
+        width: 280px;
+        height: 120px;}
+}
+@media(max-width:600px){
+    .caption img{
+        width: 250px;
+    }
+    .caption h1{
+        font-size: 25px;
+        } 
+        .caption button{
+            width: 70px;
+            padding: 10px 20px;
+            margin-top: 20px;
+} 
+.about .aboutt h1{
+    font-size: 20px;}
+    .about .row{
+   display: block;
+    }
+    .about .row .infoimg {
+        width: 50%;
+padding-left: 100px;
+      }    
+      .about .row .infoabout h1{
+        font-size: 20px;
+    padding-left: 120px;
+    width: 80%}
+    .photo .photos{
+        width: 100%;
+        padding-left: 10px;
+    } 
+        .fin .row .icn{
+            width: 0%;
+            padding-right: 70px;}
+            .fin .row .icn iframe{
+                width: 170px;
+                height: 90px;
+                padding-right: 150px;}
+                .fin .row .icn .icon{
+            
+                    font-size: 10px;
+                   
+                } 
+            
+                .fin .row .info input{
+                    height: 30px;
+                       width: 120px;
+                       padding-right: 20px           
+                      
+
+                   }
+                   .fin .row .icn iframe{
+                    width: 150px;
+                    height: 100px;}
+                    .fin .row .info{
+                        width: 100%;
+                    }
+                    .fin .row .info textarea{
+                        width: 150px;
+                        height: 70px;}
+                        .fin .row .info button{
+                         
+                            margin-left: 10px;}
+                            .photo{
+                                
+                                height: 50vh;}
+            }        
